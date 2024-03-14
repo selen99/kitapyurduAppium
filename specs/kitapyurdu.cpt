@@ -1,0 +1,56 @@
+Created by emre.konyar on 14.03.2024
+
+This is a concept file with following syntax for each concept.
+#Negative login case with invalid e-mail and valid password <email> <password>
+*Close the pop up if it appears
+*Click to my account
+*Type e-mail <email>
+*Type password <password>
+*Click to giris yap button
+*Control warning message
+*Click to tamam button
+#Negative login case with valid e-mail and invalid password <email> <password>
+*Reset e-mail area
+*Reset password area
+*Type e-mail <email>
+*Type password <password>
+*Click to giris yap button
+*Control warning message
+*Click to tamam button
+#Negative login case with invalid e-mail and invalid password <email> <password>
+*Reset e-mail area
+*Reset password area
+*Type e-mail <email>
+*Type password <password>
+*Click to giris yap button
+*Control warning message
+*Click to tamam button
+#Positive login case with valid email and password <email> <password>
+*Reset e-mail area
+*Reset password area
+*Type e-mail <email>
+*Type password <password>
+*Click to giris yap button
+*Control that you login the app
+#Negative search case with a meaningless words <MeaninglessBookName>
+*Click ara button
+*Type meaningless words <MeaninglessBookName>
+*Check that no result come up
+*Click ara button
+#Positive search case with <bookName>
+*Reset search area
+*Click to search button
+*Type book name <bookName>
+*Click the book
+*Click to filter
+*Click to yazar
+*Click to J.K Rowling checkbox
+*Click to secimi uygula button
+*Click to urunleri goster button
+*Click to sirala button
+*Click to cok satanlar
+*Click to first book
+*Add book to Cart
+*Click to cart button
+*Check if the book has been added to the cart
+*Delete book from cart

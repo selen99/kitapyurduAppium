@@ -1,0 +1,63 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (10) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2249milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2249"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63200"}
+{"logLevel":"info","message":"Listening on port:63200"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.clickToGirisYap' and 'pageSteps.LoginStep.clickToGirisYap'"}
+{"logLevel":"debug","message":"Found Click to giris yap button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.clickTamamButton' and 'pageSteps.LoginStep.clickTamamButton'"}
+{"logLevel":"debug","message":"Found Click to tamam button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.typePassword' and 'pageSteps.LoginStep.typePassword'"}
+{"logLevel":"debug","message":"Found Type password {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.controlWarningMessage' and 'pageSteps.LoginStep.controlWarningMessage'"}
+{"logLevel":"debug","message":"Found Control warning message in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.closePopUp' and 'pageSteps.LoginStep.closePopUp'"}
+{"logLevel":"debug","message":"Found Close the pop up if it appears in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.controlLoginOperation' and 'pageSteps.LoginStep.controlLoginOperation'"}
+{"logLevel":"debug","message":"Found Control that you login the app in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.clickToMyAccount' and 'pageSteps.LoginStep.clickToMyAccount'"}
+{"logLevel":"debug","message":"Found Click to my account in current project scope."}
+{"logLevel":"debug","message":"Comparing 'pageSteps.LoginStep.typeEmail' and 'pageSteps.LoginStep.typeEmail'"}
+{"logLevel":"debug","message":"Found Type e-mail {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClose the pop up if it appears : public void closePopUp() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick to tamam button : public void clickTamamButton()"}
+{"logLevel":"debug","message":"\tControl that you login the app : public void controlLoginOperation()"}
+{"logLevel":"debug","message":"\tClick to giris yap button : public void clickToGirisYap()"}
+{"logLevel":"debug","message":"\tControl warning message : public void controlWarningMessage()"}
+{"logLevel":"debug","message":"\tType password {} : public void typePassword(String password)"}
+{"logLevel":"debug","message":"\tType e-mail {} : public void typeEmail(String email)"}
+{"logLevel":"debug","message":"\tClick to my account : public void clickToMyAccount()"}
+Mar 14, 2024 1:09:08 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Close the pop up if it appears' using 'class pageSteps.LoginStep.closePopUp"}
+{"logLevel":"debug","message":"Executing 'Click to my account' using 'class pageSteps.LoginStep.clickToMyAccount"}
+{"logLevel":"debug","message":"Executing 'Type e-mail {}' using 'class pageSteps.LoginStep.typeEmail"}
+{"logLevel":"debug","message":"Executing 'Type password {}' using 'class pageSteps.LoginStep.typePassword"}
+{"logLevel":"debug","message":"Executing 'Click to giris yap button' using 'class pageSteps.LoginStep.clickToGirisYap"}
+{"logLevel":"debug","message":"Executing 'Control warning message' using 'class pageSteps.LoginStep.controlWarningMessage"}
+{"logLevel":"debug","message":"Executing 'Click to tamam button' using 'class pageSteps.LoginStep.clickTamamButton"}
+{"logLevel":"debug","message":"Executing 'Type e-mail {}' using 'class pageSteps.LoginStep.typeEmail"}
+{"logLevel":"debug","message":"Executing 'Type password {}' using 'class pageSteps.LoginStep.typePassword"}
+{"logLevel":"debug","message":"Executing 'Click to giris yap button' using 'class pageSteps.LoginStep.clickToGirisYap"}
+{"logLevel":"debug","message":"Executing 'Control warning message' using 'class pageSteps.LoginStep.controlWarningMessage"}
+{"logLevel":"debug","message":"Executing 'Click to tamam button' using 'class pageSteps.LoginStep.clickTamamButton"}
+{"logLevel":"debug","message":"Executing 'Type e-mail {}' using 'class pageSteps.LoginStep.typeEmail"}
+{"logLevel":"debug","message":"Executing 'Type password {}' using 'class pageSteps.LoginStep.typePassword"}
+{"logLevel":"debug","message":"Executing 'Click to giris yap button' using 'class pageSteps.LoginStep.clickToGirisYap"}
+{"logLevel":"debug","message":"Executing 'Control warning message' using 'class pageSteps.LoginStep.controlWarningMessage"}
+{"logLevel":"debug","message":"Executing 'Click to tamam button' using 'class pageSteps.LoginStep.clickTamamButton"}
+{"logLevel":"debug","message":"Executing 'Type e-mail {}' using 'class pageSteps.LoginStep.typeEmail"}
+{"logLevel":"debug","message":"Executing 'Type password {}' using 'class pageSteps.LoginStep.typePassword"}
+{"logLevel":"debug","message":"Executing 'Click to giris yap button' using 'class pageSteps.LoginStep.clickToGirisYap"}
+{"logLevel":"debug","message":"Executing 'Control that you login the app' using 'class pageSteps.LoginStep.controlLoginOperation"}
